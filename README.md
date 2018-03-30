@@ -9,6 +9,10 @@
 
 Most of the popular React form libraries accept an `onSubmit` function that is expected to return a `Promise` that resolves when the submission is complete, or rejects when the submission fails. This mechanism is fundamentally incompatible with action management libraries like [`redux-saga`](https://redux-saga.js.org), which perform side-effects (e.g. ajax requests) in a way that does not let the submission function easily return a promise. React Redux Promise Listener is a potential solution.
 
+### Example
+
+[![Edit 🏁 React Final Form - Async Redux Submission](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/x71mx66z8w)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
