@@ -1,0 +1,14 @@
+// @flow
+import * as React from 'react'
+import type { SetPayload, GetPayload } from 'redux-promise-listener'
+
+type Props = {
+  start: string,
+  resolve: string,
+  reject: string,
+  setPayload?: SetPayload,
+  getPayload?: GetPayload,
+  getError?: GetPayload
+}
+
+declare export default React.ComponentType<Props>
