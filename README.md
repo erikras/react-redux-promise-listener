@@ -46,7 +46,7 @@ Step 1 involves installing Redux middleware and is detailed [here in the docs of
 Welcome back! You may now create an async function in your React code like so:
 
 ```jsx
-import MakeAsyncFunction from 'redux-promise-listener'
+import MakeAsyncFunction from 'react-redux-promise-listener'
 import { promiseListener } from './store'
 
 ...
