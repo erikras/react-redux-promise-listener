@@ -41,7 +41,6 @@ describe('MakeAsyncFunction', () => {
     expect(reducer).toHaveBeenCalled()
     expect(reducer).toHaveBeenCalledTimes(1)
     expect(reducer.mock.calls[0][0]).toBe(initialState)
-    expect(reducer.mock.calls[0][1]).toEqual({ type: '@@redux/INIT' })
 
     const dom = TestUtils.renderIntoDocument(
       <Provider store={store}>
@@ -106,7 +105,6 @@ describe('MakeAsyncFunction', () => {
     expect(reducer).toHaveBeenCalled()
     expect(reducer).toHaveBeenCalledTimes(1)
     expect(reducer.mock.calls[0][0]).toBe(initialState)
-    expect(reducer.mock.calls[0][1]).toEqual({ type: '@@redux/INIT' })
 
     const dom = TestUtils.renderIntoDocument(
       <Provider store={store}>
@@ -171,7 +169,6 @@ describe('MakeAsyncFunction', () => {
     expect(reducer).toHaveBeenCalled()
     expect(reducer).toHaveBeenCalledTimes(1)
     expect(reducer.mock.calls[0][0]).toBe(initialState)
-    expect(reducer.mock.calls[0][1]).toEqual({ type: '@@redux/INIT' })
 
     class Container extends React.Component {
       state = {

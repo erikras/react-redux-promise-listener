@@ -1,20 +1,20 @@
 {
   "name": "react-redux-promise-listener",
   "version": "1.0.0",
-  "description":
-    "A React component and Redux middleware that allows actions to be converted into Promises",
+  "description": "A React component and Redux middleware that allows actions to be converted into Promises",
   "main": "dist/react-redux-promise-listener.cjs.js",
   "jsnext:main": "dist/react-redux-promise-listener.es.js",
   "module": "dist/react-redux-promise-listener.es.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "nps",
     "test": "nps test",
     "precommit": "lint-staged && npm start validate",
     "prepublish": "npm start validate"
   },
-  "author":
-    "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
+  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,46 +24,47 @@
     "url": "https://github.com/erikras/react-redux-promise-listener/issues"
   },
   "homepage": "https://github.com/erikras/react-redux-promise-listener#readme",
+  "testEnvironment": "node",
   "devDependencies": {
-    "@types/react": "^16.0.40",
-    "babel-eslint": "^8.0.3",
-    "babel-jest": "^22.4.3",
+    "@types/react": "^16.4.7",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.2",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "bundlesize": "^0.16.0",
+    "bundlesize": "^0.17.0",
     "doctoc": "^1.3.0",
-    "eslint": "^4.19.1",
+    "eslint": "^5.2.0",
     "eslint-config-react-app": "^2.1.0",
-    "eslint-plugin-babel": "^4.1.2",
-    "eslint-plugin-flowtype": "^2.46.1",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.7.0",
-    "flow-bin": "^0.68.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "flow-bin": "^0.77.0",
     "glow": "^1.2.2",
     "husky": "^0.14.3",
-    "jest": "^22.4.3",
-    "lint-staged": "^7.0.0",
-    "nps": "^5.8.2",
-    "nps-utils": "^1.5.0",
-    "prettier": "^1.11.1",
+    "jest": "^23.4.2",
+    "lint-staged": "^7.2.0",
+    "nps": "^5.9.2",
+    "nps-utils": "^1.6.0",
+    "prettier": "^1.14.0",
     "prettier-eslint-cli": "^4.7.1",
-    "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
-    "redux": "^3.7.2",
+    "redux": "^4.0.0",
     "redux-promise-listener": "^1.0.0",
-    "rollup": "^0.57.1",
-    "rollup-plugin-babel": "^3.0.2",
-    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.4",
     "rollup-plugin-flow": "^1.1.1",
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-replace": "^2.0.0",
-    "rollup-plugin-uglify": "^3.0.0"
+    "rollup-plugin-uglify": "^4.0.0"
   },
   "peerDependencies": {
     "redux": ">=3.0.0",
@@ -73,7 +74,10 @@
     "react-redux": ">=5.0.0"
   },
   "lint-staged": {
-    "*.{js*,json,md,css}": ["prettier --write", "git add"]
+    "*.{js*,json,md,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "bundlesize": [
     {
