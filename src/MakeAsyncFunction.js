@@ -23,8 +23,8 @@ export default class MakeAsyncFunction extends React.Component<Props, State> {
     children: PropTypes.func.isRequired,
     listener: PropTypes.object.isRequired,
     start: PropTypes.string.isRequired,
-    resolve: PropTypes.string.isRequired,
-    reject: PropTypes.string.isRequired,
+    resolve: PropTypes.oneOfType([PropTypes.string, PropTypes.func]).isRequired,
+    reject: PropTypes.oneOfType([PropTypes.string, PropTypes.func]).isRequired,
     setPayload: PropTypes.func,
     getPayload: PropTypes.func,
     getError: PropTypes.func

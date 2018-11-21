@@ -19,19 +19,19 @@ Most of the popular React form libraries accept an `onSubmit` function that is e
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-* [Usage](#usage)
-  * [Step 1](#step-1)
-  * [Step 2](#step-2)
-* [API](#api)
-  * [`MakeAsyncFunction: React.Component<Props>`](#makeasyncfunction-reactcomponentprops)
-* [Types](#types)
-  * [`Props`](#props)
-    * [`start: string`](#start-string)
-    * [`resolve: string`](#resolve-string)
-    * [`reject: string`](#reject-string)
-    * [`setPayload?: (action: Object, payload: any) => Object`](#setpayload-action-object-payload-any--object)
-    * [`getPayload?: (action: Object) => any`](#getpayload-action-object--any)
-    * [`getError?: (action: Object) => any`](#geterror-action-object--any)
+- [Usage](#usage)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+- [API](#api)
+  - [`MakeAsyncFunction: React.Component<Props>`](#makeasyncfunction-reactcomponentprops)
+- [Types](#types)
+  - [`Props`](#props)
+    - [`start: string`](#start-string)
+    - [`resolve: string | ActionMatcher`](#resolve-string--actionmatcher)
+    - [`reject: string | ActionMatcher`](#reject-string--actionmatcher)
+    - [`setPayload?: (action: Object, payload: any) => Object`](#setpayload-action-object-payload-any--object)
+    - [`getPayload?: (action: Object) => any`](#getpayload-action-object--any)
+    - [`getError?: (action: Object) => any`](#geterror-action-object--any)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
