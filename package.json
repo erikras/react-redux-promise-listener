@@ -57,7 +57,7 @@
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "redux-promise-listener": "^1.0.0",
+    "redux-promise-listener": "^1.1.0",
     "rollup": "^0.63.5",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.1.4",
@@ -68,7 +68,7 @@
   },
   "peerDependencies": {
     "redux": ">=3.0.0",
-    "redux-promise-listener": ">=1.0.0",
+    "redux-promise-listener": ">=1.1.0",
     "prop-types": "^15.6.0",
     "react": "^15.3.0 || ^16.0.0",
     "react-redux": ">=5.0.0"
