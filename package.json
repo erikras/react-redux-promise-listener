@@ -70,7 +70,7 @@
     "redux": ">=3.0.0",
     "redux-promise-listener": ">=1.0.0",
     "prop-types": "^15.6.0",
-    "react": "^15.3.0 || ^16.0.0",
+    "react": "^15.3.0 || ^16.0.0 || ^17.0.0",
     "react-redux": ">=5.0.0"
   },
   "lint-staged": {
